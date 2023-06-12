@@ -1,0 +1,20 @@
+{
+  "name": "heic-to-jpeg",
+  "version": "1.0.0",
+  "description": "Convert HEIC/HEIF files to JPEG",
+  "author": "Rex Lam <rexlam-hk@outlook.com> (http://rexdoit.com/)"
+  "main": "convert.js",
+  "scripts": {
+    "start": "node convert.js",
+    "build": "pkg . --targets node14-win-x64"
+  },
+  "pkg": {
+    "scripts": [
+      "convert.js"
+    ]
+  },
+  "dependencies": {
+    "heic-convert": "^1.2.4",
+    "pkg": "^5.8.1"
+  }
+}

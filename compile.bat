@@ -1,0 +1,1 @@
+npx pkg heix2jpg.js --output heix2jpg.exe
